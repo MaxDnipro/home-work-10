@@ -4,9 +4,126 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Simple site</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+  <header class="header block--light">
+
+    <div class="container">
+
+      <div class="header__inner">
+        <nav class="menu">
+          <ol class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">ГЛАВНАЯ</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">ОБ АВТОРЕ</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">РАБОТЫ</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">ПРОЦЕСС</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">КОНТАКТЫ</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+
+      <div class="header__content">
+        <h1 class="header__title--main">Дизайн и верстка</h1>
+        <p class="header__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+          Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+        </p>
+        <button class="header__btn">НАПИСАТЬ МНЕ</button>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main block--light">
+
+    <div class="container block--light">
+      <div class="me__content">
+        <h2 class="me__title">Обо мне</h2>
+        <p class="me__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+      </div>
+    </div>  
+    
+    <div class="projects block--dark">
+      
+      <div class="container">
+
+        <div class="projects__icons">
+            <ul class="icons__list">
+              <li class="icons__item">
+                <img class="icons__img" src="image/project.svg" alt="" srcset="">
+                <p class="icons__text">40+ проектов</p>
+              </li>
+              <li class="icons__item">
+                <img class="icons__img" src="image/project.svg" alt="" srcset="">
+                <p class="icons__text">40+ проектов</p>
+              </li>
+              <li class="icons__item">
+                <img class="icons__img" src="image/project.svg" alt="" srcset="">
+                <p class="icons__text">40+ проектов</p>
+              </li>
+              <li class="icons__item">
+                <img class="icons__img" src="image/project.svg" alt="" srcset="">
+                <p class="icons__text">40+ проектов</p>
+              </li>
+              <li class="icons__item">
+                <img class="icons__img" src="image/project.svg" alt="" srcset="">
+                <p class="icons__text">40+ проектов</p>
+              </li>
+              <li class="icons__item">
+                <img class="icons__img" src="image/project.svg" alt="" srcset="">
+                <p class="icons__text">40+ проектов</p>
+              </li>
+            </ul>
+        </div>
+          
+      </div>
+
+    </div>
+    </div>
+
+    <div class="container">
+      <div class="work__content">
+        <h2 class="work__title">Как я работаю</h2>
+        <p class="work__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+      </div>
+    
+      
+      <div class="video">   
+        <iframe class="main__video" 
+          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+        </iframe>
+        
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer block--dark">
+
+    <div class="container"> 
+
+      <h3 class="footer__title">Иванов Иван</h3>
+      <span>&#169; 2018. Все права защищены.</span>
+  
+    </div>
+    
+  </footer>
   
 </body>
 </html>
